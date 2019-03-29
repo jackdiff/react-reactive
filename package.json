@@ -1,0 +1,18 @@
+{
+ "name": "todos_project",
+ "version": "1.0.0",
+ "description": "WS 2019/03/30",
+ "scripts": {
+  "build": "webpack --config webpack.config.js --mode development"
+ },
+ "dependencies": {
+  "@babel/core": "^7.4.0",
+  "@babel/preset-env": "^7.4.2",
+  "@babel/preset-react": "^7.0.0",
+  "babel-loader": "^8.0.5",
+  "react": "^16.8.5",
+  "react-dom": "^16.8.5",
+  "webpack": "^4.29.6",
+  "webpack-cli": "^3.3.0"
+ }
+}
