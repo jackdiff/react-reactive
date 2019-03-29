@@ -1,4 +1,5 @@
 import React, { Component, Fragment } from 'react'
+import { todoStore }  from './TodoStore'
 
 export default class AddTodo extends Component {
   constructor(props) {
@@ -10,7 +11,7 @@ export default class AddTodo extends Component {
 
   add() {
     if(this.newTodo.value) {
-      this.props.addCallback(this.newTodo.value)
+      todoStore.addTodo(this.newTodo.value)
       this.setState({showForm: false}, () => {
         this.newTodo.value = ''
       })
