@@ -13,7 +13,7 @@ var buildPath = path.join(__dirname, 'dist');
     },
     resolve: {
         modules: [
-            'scripts', 'node_modules',
+            'sources', 'node_modules',
         ],
         extensions: ['.js', '.jsx'],
     },
